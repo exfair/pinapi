@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.accordian {
+  width: 1140px;
+  height: 450px;
+  overflow: hidden;
+  margin: 52px auto;
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
+  -webkit-box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
+  -moz-box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
+}
+
+.accordian ul {
+  width: 1200px;
+}
+
+.accordian li {
+  position: relative;
+  display: block;
+  width: 160px;
+  float: left;
+  border-left: 1px solid #888;
+  box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.5);
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+}
+
+.accordian ul:hover li {
+  width: 40px;
+}
+
+.accordian ul li:hover {
+  width: 640px;
+}
+
+.accordian li img {
+  display: block;
+}
+
+.image_title:hover {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 1050px;
+  height: 60px;
+  background: rgba(0,116,200,0.28);
+  text-shadow: 1px 1px 2px #8e8e8e;
+}
+
+.image_title {
+  background: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  padding-left: 20px;
+  padding-top: 20px;
+  /*font-size: 12px;*/
+}
+

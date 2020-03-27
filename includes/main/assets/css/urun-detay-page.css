@@ -1,0 +1,23 @@
+.container.urun-detay-cont {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.col.urun-desciription, .col-xl-6.detay-urun-foto {
+  padding: 30px;
+  font-family: 'Poppins';
+}
+
+@media (min-width: 576px) {
+  .col.urun-desciription {
+    padding-top: 140px;
+  }
+}
+
+@media (min-width: 576px) {
+  .urun-foto {
+    border-right: 1px solid #b4b4b4;
+    border-left: 1px solid#b4b4b4;
+  }
+}
+

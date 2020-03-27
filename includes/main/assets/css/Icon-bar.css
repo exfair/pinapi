@@ -1,0 +1,35 @@
+@media (max-width: 576px) {
+  .rp-icon-bar {
+    display: none;
+  }
+}
+
+@media (min-width: 576px) {
+  .rp-icon-bar {
+    width: 50px;
+    background-color: #555;
+    /*vertical-align: middle;*/
+    position: fixed;
+    z-index: 1030;
+    top: 40%;
+    right: 0;
+  }
+}
+
+.rp-icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 9px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 27px;
+}
+
+.rp-icon-bar a:hover {
+  background-color: #000;
+}
+
+.rp-active {
+  background-color: #1b77e4;
+}
+

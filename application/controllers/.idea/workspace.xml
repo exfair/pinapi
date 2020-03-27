@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6ee04f40-3461-4ee7-aa99-5945733c68fd" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../views/calculate/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../views/hakkimizda/content.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../views/hakkimizda/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../views/iletisim/content.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../views/iletisim/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../views/includes/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/../views/includes/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../views/includes/navigation.php" beforeDir="false" afterPath="$PROJECT_DIR$/../views/includes/navigation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../views/includes/site_script.php" beforeDir="false" afterPath="$PROJECT_DIR$/../views/includes/site_script.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../views/includes/site_style.php" beforeDir="false" afterPath="$PROJECT_DIR$/../views/includes/site_style.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../views/kategori/content.php" beforeDir="false" afterPath="$PROJECT_DIR$/../views/kategori/content.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../views/kategori/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/../views/kategori/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../views/main/banner.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../views/main/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/../views/main/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../views/main/related.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../views/urun/content.php" beforeDir="false" afterPath="$PROJECT_DIR$/../views/urun/content.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../views/urun/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/../views/urun/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../includes/main/assets/css/Icon-bar.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../includes/main/assets/css/Icon-bar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../includes/main/assets/css/bread.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../includes/main/assets/css/bread.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../includes/main/assets/css/demo.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../includes/main/assets/css/demo.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../includes/main/assets/css/navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../includes/main/assets/css/navbar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../includes/main/assets/css/slide.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../includes/main/assets/css/slide.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../includes/main/assets/css/stiller.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../includes/main/assets/css/stiller.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../includes/main/assets/css/urun-card.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../includes/main/assets/css/urun-card.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../includes/main/assets/css/urun-detay-page.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../includes/main/assets/css/urun-detay-page.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../includes/main/assets/css/yeni-urun-slider.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../includes/main/assets/css/yeni-urun-slider.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1ZWmSD2ttt2Z235jaXzu3dZEEYX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6ee04f40-3461-4ee7-aa99-5945733c68fd" name="Default Changelist" comment="" />
+      <created>1584963222217</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584963222217</updated>
+      <workItem from="1584963224662" duration="12000" />
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="740" y="273" key="FileChooserDialogImpl" timestamp="1584963234508">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="273" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1584963234508" />
+    <state x="661" y="342" key="com.intellij.ide.util.TipDialog" timestamp="1584963225317">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="661" y="342" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584963225317" />
+  </component>
+</project>
