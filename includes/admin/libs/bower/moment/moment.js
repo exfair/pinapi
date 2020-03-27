@@ -8,7 +8,6 @@
     /************************************
         Constants
     ************************************/
-
     var moment,
         VERSION = '2.9.0',
         // the global-scope this is NOT the global object in Node.js
@@ -980,9 +979,9 @@
         _meridiemParse : /[ap]\.?m?\.?/i,
         meridiem : function (hours, minutes, isLower) {
             if (hours > 11) {
-                return isLower ? 'pm' : 'PM';
+                return isLower ? 'pmX' : '';
             } else {
-                return isLower ? 'am' : 'AM';
+                return isLower ? 'amX' : '';
             }
         },
 

@@ -1,7 +1,7 @@
 <div class="row">
     <div class="col-md-12">
         <h4 class="m-b-lg">
-            Kategori Listesi
+            <?=count($items)." Proxy mevcut";?>
             <a href="<?php echo base_url("Proxy/new_form"); ?>" class="btn btn-outline btn-primary btn-xs pull-right"> <i class="fa fa-plus"></i> Yeni Ekle</a>
 
         </h4>
@@ -19,14 +19,14 @@
                     <thead>
                     <th class="order"><i class="fa fa-reorder"></i></th>
                 <th class="w50">#ID</th>
-                        <th>İp</th>
+                        <th>Ip</th>
                         <th>Port</th>
                         <th>BuyDate</th>
                         <th>Expire</th>
                         <th>İşlem</th>
                         
                     </thead>
-                    <tbody class="sortable" data-url="">    
+                    <tbody class="" data-url="">    
                         
                              <?php foreach($items as $item) { ?>
                         

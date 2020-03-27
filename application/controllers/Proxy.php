@@ -17,9 +17,7 @@ class Proxy extends CI_Controller {
         $viewData = new stdClass();
            
 
-        $items =  $this->main_model->get_all(
-            array(), "id ASC" ,"proxies"        
-        );
+        $items =  $this->main_model->getAvailableProxies();
 
         $viewData->viewFolder = $this->viewFolder;
         $viewData->items = $items;
@@ -28,13 +26,13 @@ class Proxy extends CI_Controller {
         
         
 	}
-         public function new_form(){
+     public function new_form(){
 
         $viewData = new stdClass();
 
         /** View'e gönderilecek Değişkenlerin Set Edilmesi.. */
         $viewData->viewFolder = $this->viewFolder;
-        $viewData->subViewFolder = "liste";
+        $viewData->subViewFolder = "ekle";
 
         $this->load->view("{$viewData->viewFolder}/{$viewData->subViewFolder}/index", $viewData);
 
@@ -56,5 +54,11 @@ class Proxy extends CI_Controller {
             redirect(base_url("Proxy"));
         }
 
+    }
+    public function save(){
+
+        $tarih = $this->input->post('buydate');
+        $tarih = str_replace("/","-",$tarih);
+        
     }
 }

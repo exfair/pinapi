@@ -43,4 +43,8 @@ class Main_model extends CI_Model
     { 
         return $this->db->query('SELECT p.*,c.title as "category_title" FROM categories as c,products as p WHERE c.id = '.$childid.' AND p.category_id = c.id')->result();
     }
+    public function getAvailableProxies(){
+        return $this->db->query('SELECT * FROM proxies WHERE TIMEDIFF(expireDate,CURRENT_TIMESTAMP()) > 0')->result();
+
+    }
 }
