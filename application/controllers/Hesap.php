@@ -42,7 +42,18 @@ class Hesap extends CI_Controller {
         $this->load->view("{$viewData->viewFolder}/{$viewData->subViewFolder}/index", $viewData);
 
     }
-     
+    public function coklu_ekle(){
+
+        $viewData = new stdClass();
+        $proxies =  $this->main_model->getAvailableProxies();
+
+        /** View'e gönderilecek Değişkenlerin Set Edilmesi.. */
+        $viewData->viewFolder = $this->viewFolder;
+        $viewData->subViewFolder = "coklu_ekle";
+        $viewData->proxies = $proxies;
+        $this->load->view("{$viewData->viewFolder}/{$viewData->subViewFolder}/index", $viewData);
+
+    }
       public function delete($id){
 
         $delete = $this->main_model->delete(
@@ -60,6 +71,44 @@ class Hesap extends CI_Controller {
         }
 
     }
+    public function coklu_save(){
+        $toplu = $this->input->post("toplu");
+
+        $text = trim($toplu);
+        $textAr = explode("\n", $text);
+        $textAr = array_filter($textAr, 'trim'); // remove any extra \r characters left behind
+
+        foreach ($textAr as $line) {
+            $parca = explode(",", $line);
+            $username = $parca[0];
+            $session = $parca[1];
+
+            $insert = $this->main_model->add(
+                array(
+                    "proxy_id"     => $this->input->post("proxy"),
+                    "session_id"     => $session,
+                    "username"       => $username,
+                    "totalpin"       => 0
+                    
+                ),
+               "account"
+            );
+            // processing here. 
+        } 
+        redirect(base_url("hesap"));
+       /* 
+
+        // TODO Alert sistemi eklenecek...
+        if($insert){
+
+           redirect(base_url("hesap"));
+
+        } else {
+
+          redirect(base_url("hesap"));
+
+        }*/
+   }
     public function save(){
        
             $insert = $this->main_model->add(

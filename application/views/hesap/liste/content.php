@@ -4,7 +4,7 @@
     <div class="col-md-12">
         <h4 class="m-b-lg">
             <?=count($items)." Hesap mevcut";?>
-            <a href="<?php echo base_url("Hesap/baslat"); ?>" class="btn btn-outline btn-danger btn-m pull-right"> <i class="fa fa-plus"></i>Başlat</a>
+            <a href="<?php echo base_url("Hesap/coklu_ekle"); ?>" class="btn btn-outline btn-danger btn-xs pull-right"> <i class="fa fa-plus"></i>Çoklu Ekle</a>
 
             <a href="<?php echo base_url("Hesap/new_form"); ?>" class="btn btn-outline btn-primary btn-xs pull-right"> <i class="fa fa-plus"></i>Yeni Ekle</a>
 
