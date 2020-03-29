@@ -18,7 +18,7 @@
 
         <a href="../index.html" class="navbar-brand">
             <span class="brand-icon"><i class="fa fa-gg"></i></span>
-            <span class="brand-name">Yılmazlar</span>
+            <span class="brand-name">Pinterest</span>
         </a>
     </div><!-- .navbar-header -->
 

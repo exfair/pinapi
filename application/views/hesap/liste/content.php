@@ -2,7 +2,9 @@
     <div class="col-md-12">
         <h4 class="m-b-lg">
             <?=count($items)." Hesap mevcut";?>
-            <a href="<?php echo base_url("Hesap/new_form"); ?>" class="btn btn-outline btn-primary btn-xs pull-right"> <i class="fa fa-plus"></i> Yeni Ekle</a>
+    
+            <a href="<?php echo base_url("Hesap/baslat"); ?>" class="btn btn-outline btn-primary btn-xs pull-right"> <i class="fa fa-plus"></i> Yeni Ekle</a>
+            <a href="<?php echo base_url("Hesap/new_form"); ?>" class="btn btn-outline btn-danger btn-xs pull-right"> <i class="fa fa-plus"></i>Başlat</a>
 
         </h4>
     </div><!-- END column -->
@@ -19,12 +21,10 @@
                     <thead>
                     <th class="order"><i class="fa fa-reorder"></i></th>
                 <th class="w50">#ID</th>
-                        <th>proxies_id</th>
-                        <th>session_id</th>
+                        <th>Proxy ID</th>
                         <th>username</th>
                         <th>totalpin</th>
                         <th>işlem</th>
-                        
                     </thead>
                     <tbody class="" data-url="">    
                         
@@ -33,8 +33,7 @@
                             <tr id="ord-X">
                                 <td class="order"><i class="fa fa-reorder"></i></td>
                                 <td class="w50 text-center"><?php echo $item->id; ?></td>
-                                <td><?php echo $item->proxies_id; ?></td>
-                                <td><?php echo $item->session_id; ?></td>
+                                <td><?php echo $item->proxy_id; ?></td>
                                 <td><?php echo $item->username; ?></td>
                                 <td><?php echo $item->totalpin; ?></td>
                                 <td>

@@ -12,11 +12,9 @@ class Main extends CI_Controller {
   }
 
     public function index()
-	{
-  
+  	{
         $viewData = new stdClass();
            
-   
         $items = array(
         );
 
@@ -24,5 +22,5 @@ class Main extends CI_Controller {
         $viewData->items = $items;
 
         $this->load->view("{$viewData->viewFolder}/index", $viewData);
-	}
+  	}
 }
