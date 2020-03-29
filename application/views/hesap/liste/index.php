@@ -21,9 +21,10 @@
 
     <!-- APP MAIN ==========-->
     <main id="app-main" class="app-main">
+       
         <div class="wrap">
             <section class="app-content">
-                <?php $this->load->view("main/content"); ?>
+                <?php $this->load->view("hesap/liste/content"); ?>
             </section><!-- #dash-content -->
         </div><!-- .wrap -->
 

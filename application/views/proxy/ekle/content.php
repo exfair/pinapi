@@ -17,8 +17,8 @@
                         <input class="form-control" placeholder="Port" name="port">
                     </div>
                     <div class="form-group" style="position: relative;">
-									<label for="datetimepicker5">Buy Date</label>
-									<input type="text" id="datetimepicker5" class="form-control" data-plugin="datetimepicker" data-options="{ defaultDate: '<?=date('Y/m/d');?>' }" name="buydate">
+		<label for="datetimepicker5">Buy Date</label>
+	<input type="text" id="datetimepicker5" class="form-control" data-plugin="datetimepicker" data-options="{ defaultDate: '<?=date('Y/m/d');?>' }" name="buydate">
 					</div>
                     <div class="form-group">
                         <label>Proxy Life</label>

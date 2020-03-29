@@ -56,9 +56,45 @@ class Proxy extends CI_Controller {
 
     }
     public function save(){
+        $tarih = $this->input->post("buydate");
+        
+        $tarih = new DateTime($tarih);
+        $tarih->modify('+'.$this->input->post("proxylife").' day');
+        
+        $buydate =new DateTime( $this->input->post("buydate"));
+        
+        //echo $tarih;
+        //echo $expire;
+            $insert = $this->main_model->add(
+                array(
+                    "ip"         => $this->input->post("ip"),
+                    "port"       => $this->input->post("port"),
+                    "buyDate"    => $buydate->format('Y-m-d H:i:s'),
+                    "expireDate" => $tarih->format('Y-m-d H:i:s')
+                ),
+                    "proxies"
+            );
 
-        $tarih = $this->input->post('buydate');
-        $tarih = str_replace("/","-",$tarih);
+            // TODO Alert sistemi eklenecek...
+            if($insert){
+
+               redirect(base_url("proxy"));
+
+            } else {
+
+              redirect(base_url("proxy"));
+
+            }
+
+            $viewData = new stdClass();
+
+            /** View'e gönderilecek Değişkenlerin Set Edilmesi.. */
+            $viewData->viewFolder = $this->viewFolder;
+            $viewData->subViewFolder = "ekle";
+            $viewData->form_error = true;
+
+           // $this->load->view("{$viewData->viewFolder}/{$viewData->subViewFolder}/index", $viewData);
+        
         
     }
 }
